@@ -198,7 +198,9 @@ void move_ball_horizontally(){
   if(ball_j == 0 || ball_j == 7){
     if(bounce_on_bat()){
       horizontal_direction *= -1;
-      ball_i += horizontal_direction; //if ball was going left, move ball down 
+      if(ball_i > 1 && ball_i < 6){
+        ball_i += horizontal_direction;
+      }
     } else{
       game_ended = true;
       if(ball_j == 7){
