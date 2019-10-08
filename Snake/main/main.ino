@@ -1,5 +1,5 @@
-// Pong HDH Script
-// Marjolein & Daan
+// Snake HDH Script
+// Marjolein & Daan & Steven
 // de Volksbank, 2019
 
 // Libs
